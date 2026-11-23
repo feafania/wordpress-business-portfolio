@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Editors
+.idea/
+.vscode/
+
+# Dependencies and logs
+node_modules/
+*.log
+
+# Secrets
+.env
+wp-config.php
+
+# Local
+assets
