@@ -94,3 +94,12 @@ function pixelcraft_enqueue_assets() {
 	);
 }
 add_action( 'wp_enqueue_scripts', 'pixelcraft_enqueue_assets' );
+
+/**
+ * Elementor compatibility: allow Elementor to take over theme areas
+ * (we only use the free version, so no theme builder locations needed).
+ */
+function pixelcraft_elementor_support() {
+	add_theme_support( 'elementor' );
+}
+add_action( 'after_setup_theme', 'pixelcraft_elementor_support' );
