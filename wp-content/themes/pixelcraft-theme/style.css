@@ -321,3 +321,21 @@ a {
         grid-template-columns: 2fr 1fr 1fr;
     }
 }
+
+/* ---------- Full Width template ---------- */
+.page-content--full {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Prevent accidental horizontal scroll from full-bleed sections */
+.site-main {
+    overflow-x: clip;
+}
+
+/* Hero sections should touch the footer without the default gap */
+.page-template-template-full-width .site-footer {
+    margin-top: 0;
+}
