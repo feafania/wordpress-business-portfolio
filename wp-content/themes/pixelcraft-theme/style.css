@@ -15,13 +15,13 @@ Tags: custom-logo, custom-menu, featured-images, full-width-template, accessibil
 
 /* Base styles will be added in the next phase */
 /* ---------- Design tokens ---------- */
-:root {
-    --color-text: #0f172a;
-    --color-bg: #ffffff;
-    --color-primary: #1d4ed8;
-    --color-primary-dark: #1e3a8a;
-    --color-muted: #475569;
-    --color-border: #e2e8f0;
+::root {
+    --color-text: var(--wp--preset--color--text, #0f172a);
+    --color-bg: var(--wp--preset--color--background, #ffffff);
+    --color-primary: var(--wp--preset--color--primary, #1d4ed8);
+    --color-primary-dark: var(--wp--preset--color--primary-dark, #1e3a8a);
+    --color-muted: var(--wp--preset--color--muted, #475569);
+    --color-border: var(--wp--preset--color--border, #e2e8f0);
     --container: 1200px;
     --header-height: 72px;
 }
