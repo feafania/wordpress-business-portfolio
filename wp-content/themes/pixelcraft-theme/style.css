@@ -1,0 +1,21 @@
+/*
+Theme Name: Pixelcraft Theme
+Theme URI: https://github.com/ТВОЙ_НІК/wordpress-business-portfolio
+Author: Тваё Імя
+Author URI: https://github.com/ТВОЙ_НІК
+Description: Custom WordPress theme for Pixelcraft Studio, a small web design agency. Built to work with Elementor (free).
+Version: 1.0.0
+Requires at least: 6.0
+Requires PHP: 8.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: pixelcraft
+Tags: custom-logo, custom-menu, featured-images, full-width-template, accessibility-ready
+*/
+
+/* Base styles will be added in the next phase */
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+}
